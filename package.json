@@ -1,0 +1,42 @@
+{
+  "name": "knowflow",
+  "version": "1.0.0",
+  "description": "An MCP server that makes documentation natively queryable by AI. Connects the docs corpus, GA4 search analytics, Jenkins CI, and a RAGAS evaluation layer to Claude — turning static content into a living knowledge layer.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "bin": {
+    "knowflow": "dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "documentation",
+    "rag",
+    "knowledge-engineering",
+    "information-architecture",
+    "ragas",
+    "claude",
+    "model-context-protocol",
+    "knowflow",
+    "content-gaps",
+    "docs-as-code"
+  ],
+  "author": "Bipin Pandey <pandey.bipin2@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://bipin-24.github.io"
+}
