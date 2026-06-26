@@ -252,8 +252,7 @@ knowflow/
 
 ## Related projects
 
-- [`doc-rag-chatbot`](https://github.com/Bipin-24/doc-rag-chatbot) — RAG pipeline and chat UI over a documentation corpus
-- [`doc-content-gap-finder`](https://github.com/Bipin-24/doc-content-gap-finder) — CLI tool that surfaces undocumented topics from search data
+- [`Documentation-AI-Assistant`](https://github.com/Bipin-24/Documentation-AI-Assistant) — RAG pipeline and chat UI over a documentation corpus
 - [IA Playbook](https://information-architecture-playbook.vercel.app) — AI content governance framework for RAG-ready documentation
 
 ---
